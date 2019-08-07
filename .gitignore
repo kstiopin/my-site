@@ -1,0 +1,7 @@
+/.idea
+/TODO
+/config/config_private.php
+/dist
+/node_modules
+/*.log
+/*.ini

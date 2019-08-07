@@ -1,0 +1,48 @@
+{
+  "name": "ks-personal",
+  "version": "0.1.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kstiopin/my-site.git"
+  },
+  "keywords": [
+    "personal",
+    "website"
+  ],
+  "author": "kstiopin",
+  "license": "ISC",
+  "homepage": "https://www.kstiopin.in.ua",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.1.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "test"
+  }
+}
